@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Student Registration Form</title>
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+
+   <form action="/student" method="post">
+   <div class="container">
+     <h1><%= Form %></h1>
+     <p><%= Message %></p>
+     <hr>
+
+     <label for="username"><b>Username</b></label>
+     <input type="text" placeholder="Enter Username" name="username">
+
+     <label for="psw"><b>Password</b></label>
+     <input type="password" placeholder="Enter Password" name="psw">
+
+     <div class="clearfix">
+       <button type="submit" class="signupbtn" id="submit">Sign Up</button>
+     </div>
+   </div>
+ </form>
+
+   <footer>copyright 2018
+     <br>
+     Yusuf Siregar
+   </footer>
+ </body>
+</html>

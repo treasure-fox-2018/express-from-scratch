@@ -1,9 +1,12 @@
-const routes = require('express').Router();
+const app = require('express').Router();
+// const models = require('./models');
+const ejs = require('ejs');
 
-routes.get("/", (req, res) => {
-  res.status(200).json({
-    message: "I love Hacktiv8"
-  });
+// app.use('/models', models);
+
+app.get("/", (req, res) => {
+  res.render("../views/home-page.ejs", {Home: "Wolf School of Witcher", Paragraph: "Ready to be witness the next Geratlt of Rivia?"})
 });
 
-module.exports = routes;
+
+module.exports = app;
