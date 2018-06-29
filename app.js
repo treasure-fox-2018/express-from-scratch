@@ -1,0 +1,13 @@
+const express = require('express')
+const app = express()
+const routes = require('./routes/index')
+const ejs = require('ejs')
+const bodyParser = require('body-parser')
+
+app.use(bodyParser.urlencoded({ extended: false }))
+
+app.set('view engine', 'ejs')
+
+app.use('/', routes)
+
+app.listen(3000, console.log(`listen port 3000`))
