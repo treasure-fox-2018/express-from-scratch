@@ -1,10 +1,8 @@
 'use strict'
 
-const express = require('express')
-let app = express()
+const app = require('express')()
+const routes = require('./routes')
 
-app.get('/', function (req, res) {
-    res.send("COME ON YOU GUNNERS !")
-})
+app.use('/', routes)
 
 app.listen(3000)
