@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Students</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <h1><%= title %></h1>
+    <div>
+        <form action="/students" method="post">
+        First Name:<br><input type="text" name="First Name" placeholder="First Name"><br><br>
+        Last Name:<br><input type="text" name="Last Name" placeholder="Last Name"><br><br>
+        Birthdate:<br><input type="text" name="Birthdate" placeholder="DD-MM-YYYY"><br><br>
+        Email:<br><input type="text" name="Email" placeholder="Email"><br><br><br>
+        <button type="submit" value="Submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
