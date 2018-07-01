@@ -1,0 +1,29 @@
+{
+  "name": "express-from-scratch",
+  "version": "1.0.0",
+  "description": "Express-from-scratch",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "install": "^0.12.1",
+    "nodemon": "^1.17.5",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treasure-fox-2018/express-from-scratch.git"
+  },
+  "author": "Fadli Al Baihaqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treasure-fox-2018/express-from-scratch/issues"
+  },
+  "homepage": "https://github.com/treasure-fox-2018/express-from-scratch#readme"
+}

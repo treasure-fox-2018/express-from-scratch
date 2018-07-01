@@ -1,0 +1,16 @@
+
+
+body {
+  color : black;
+  text-align: center;
+}
+
+table {
+  margin : auto;
+  width: 400px;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
