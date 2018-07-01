@@ -1,9 +1,14 @@
-let express = require('express');
-let routes = express.Router();
+const express = require('express');
+const routes = express.Router();
 
 routes.get('/', function(req,res){
-    res.render('home.ejs', {
-        home: 'front Page',
-        paragraph: 'hallooo'
-    })
+    res.render('about.ejs')
 })
+// routes.get('/', function(req,res){
+//     res.send('Home')
+// })
+
+
+module.exports = routes
+//route : import express, routes (express.Router())
+
