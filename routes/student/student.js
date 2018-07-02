@@ -7,7 +7,8 @@ router.get('/', function(req, res){
    res.end();
 });
 router.post('/', function(req, res){
-  let data = JSON.stringify(req.body)
+  let data = req.body
+  console.log(req.body)
    res.render("../views/student-post.ejs", {username: data.username, password: data.password, links:'links:'});
 });
 
